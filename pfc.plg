@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pfc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Release/pfc.res" /d "NDEBUG" /d "_AFXDLL" "C:\pfc\pfc\pfc.rc"" 
+Creating temporary file "C:\DOCUME~1\adria\CONFIG~1\Temp\RSP36.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/pfc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pfc\pfc\dinamics\Camera.cpp"
+"C:\pfc\pfc\dinamics\Character.cpp"
+"C:\pfc\pfc\dinamics\Group.cpp"
+"C:\pfc\pfc\dinamics\Paint.cpp"
+"C:\pfc\pfc\dinamics\Scene.cpp"
+"C:\pfc\pfc\dinamics\Vector.cpp"
+"C:\pfc\pfc\dinamics\World.cpp"
+"C:\pfc\pfc\ChildFrm.cpp"
+"C:\pfc\pfc\MainFrm.cpp"
+"C:\pfc\pfc\pfc.cpp"
+"C:\pfc\pfc\pfcDoc.cpp"
+"C:\pfc\pfc\pfcView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\adria\CONFIG~1\Temp\RSP36.tmp" 
+Creating temporary file "C:\DOCUME~1\adria\CONFIG~1\Temp\RSP37.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/pfc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pfc\pfc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\adria\CONFIG~1\Temp\RSP37.tmp" 
+Creating temporary file "C:\DOCUME~1\adria\CONFIG~1\Temp\RSP38.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/pfc.pdb" /machine:I386 /out:"Release/pfc.exe" 
+.\Release\Camera.obj
+.\Release\Character.obj
+.\Release\Group.obj
+.\Release\Paint.obj
+.\Release\Scene.obj
+.\Release\Vector.obj
+.\Release\World.obj
+.\Release\ChildFrm.obj
+.\Release\MainFrm.obj
+.\Release\pfc.obj
+.\Release\pfcDoc.obj
+.\Release\pfcView.obj
+.\Release\StdAfx.obj
+.\Release\pfc.res
+]
+Creating command line "link.exe @C:\DOCUME~1\adria\CONFIG~1\Temp\RSP38.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Camera.cpp
+Character.cpp
+Group.cpp
+Paint.cpp
+Scene.cpp
+Vector.cpp
+World.cpp
+ChildFrm.cpp
+MainFrm.cpp
+pfc.cpp
+pfcDoc.cpp
+pfcView.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\adria\CONFIG~1\Temp\RSP3A.tmp" with contents
+[
+/nologo /o"Release/pfc.bsc" 
+.\Release\StdAfx.sbr
+.\Release\Camera.sbr
+.\Release\Character.sbr
+.\Release\Group.sbr
+.\Release\Paint.sbr
+.\Release\Scene.sbr
+.\Release\Vector.sbr
+.\Release\World.sbr
+.\Release\ChildFrm.sbr
+.\Release\MainFrm.sbr
+.\Release\pfc.sbr
+.\Release\pfcDoc.sbr
+.\Release\pfcView.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\adria\CONFIG~1\Temp\RSP3A.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+pfc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
