@@ -1,0 +1,20 @@
+n_groups: 1
+
+group_nCharacters: 1
+
+character_maxSpeed: 1.000
+character_maxAccForce: 1.000
+character_maxBrakeForce: 3.000
+character_maxTurnForce: 0.1000
+character_maxFear: 15.000
+character_position: 1.500 -1.500 0.000
+character_forward: 0.000 1.000 0.000
+
+n_enemy_groups: 0
+
+scene_width: 10
+scene_height: 4
+----------
+---12-----
+---34-----
+----------
